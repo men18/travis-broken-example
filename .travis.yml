@@ -5,7 +5,6 @@ php:
 - hhvm
 script:
 - phpunit Test.php
-after_success:
 - packer build apache.json
 env:
   global:
