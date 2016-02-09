@@ -8,7 +8,7 @@ script:
 - wget https://releases.hashicorp.com/packer/0.8.6/packer_0.8.6_linux_amd64.zip 
 - unzip packer_0.8.6_linux_amd64.zip 
 #-  mv packer /usr/local/packer
-- packer build apache.json
+- ./packer build apache.json
 env:
   global:
   - secure: gQGLltNhEF8g0Z3T23TfikdYcJ3GVOyQwr3Ogsl3eJz5/+7H1J/x4gxY00UFMXap9UNmeYxgdS7eCOL7s7WJAdUmCKlfIkYfwxmnSJ/nNp0VobD06vy5Y8WcU9+cHa/Xbb2sZwnaeSWNG3sjS3Vcvb2y9sH/YElqL65ial2rjB7vZmKslkAlbz4AVVnZxaOe3GBzC8hUONDLqUT6vNmT6+NswRZZxnI3kK6DyizJCN0QXyJ5UNMbdXtHFtepCkImloaa2fYqgj41Pyc/E890+psvqrWEd8lG1t+Z7Jr82BfaAoGCx1x3q+fzzM28VunvzkvI+tC7f8sMnjBLRMO3zTenVywTda356MiK5GRf/YILPORIyB396RcYSNg2YeUz0UtOYf5D4t5JlOh3lmsXsE8YJKRBsU4jfDhUEIq4CM84IkwdIiol4PfFJXvRLt85qTYdD5z7aujeaNmXHQ7Y8LnuN/xhlFObje7YCl2MMnnzZ4Hkd6xMXm7zOQ7INZWTQlDaSABJfpJvY/Ceryu4zYhzYdREM5BMmlRpdAYYGX1hrxRrSchO54Tin6eJaAg2eYRwM8iUHLAYmKSh/FW9dn7kRuiFKvZMw0C995Szv+sCwqF5TVSUoAsHIwBRa+jfveiFMwwc3+q7GDFJRlUdAyyUiSjMgGj521raa3OCkKE=
