@@ -12,7 +12,8 @@
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
     "ami_name": "Adopte Un Badge {{timestamp}}",
-    "vpc_id": "vpc-61edc604"
+    "vpc_id": "vpc-61edc604",
+    "subnet_id": "subnet-355b5f42"
    }],
 
   "provisioners": [
